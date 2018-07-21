@@ -1,2 +1,14 @@
-<h1>Question#new</h1>
-<p>Find me in app/views/question/new.html.erb</p>
+<h1>質問作成</h1>
+<%= form_for @question, url: { action: 'create' } do |f| %>
+  <div class="form-group">
+    <%= f.label 名前 %>
+    <%= f.text_field :name, class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label 質問内容 %>
+    <%= f.text_area :content, class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.submit '新規質問作成する', class: 'btn btn-primary' %>
+  </div>
+<% end %>
