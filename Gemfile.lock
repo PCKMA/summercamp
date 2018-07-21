@@ -104,7 +104,11 @@ GEM
     multi_json (1.13.1)
     mysql2 (0.5.1)
     nio4r (2.3.1)
+<<<<<<< HEAD
     nokogiri (1.8.3)
+=======
+    nokogiri (1.8.4)
+>>>>>>> fe5b8734d673af171105c8c8e3f86b043f2cc94f
       mini_portile2 (~> 2.3.0)
     public_suffix (3.0.2)
     puma (3.11.4)
@@ -175,7 +179,11 @@ GEM
     turbolinks-source (5.1.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+<<<<<<< HEAD
     uglifier (4.1.13)
+=======
+    uglifier (4.1.14)
+>>>>>>> fe5b8734d673af171105c8c8e3f86b043f2cc94f
       execjs (>= 0.3.0, < 3)
     web-console (3.6.2)
       actionview (>= 5.0)
@@ -215,4 +223,8 @@ RUBY VERSION
    ruby 2.4.1p111
 
 BUNDLED WITH
+<<<<<<< HEAD
    1.16.3
+=======
+   1.16.2
+>>>>>>> fe5b8734d673af171105c8c8e3f86b043f2cc94f
