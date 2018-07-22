@@ -1,11 +1,11 @@
 <h1>回答投稿</h1>
-<%= form_for @question, url: { action: 'create' } do |f| %>
+<%= form_for @answer, url: { action: 'create' } do |f| %>
   <div class="form-group">
-    <%= f.label 名前 %>
+    <%= f.label "名前" %>
     <%= f.text_field :name, class: 'form-control' %>
   </div>
   <div class="form-group">
-    <%= f.label 回答 %>
+    <%= f.label "回答" %>
     <%= f.text_area :answer, class: 'form-control' %>
   </div>
   <div class="form-group">
