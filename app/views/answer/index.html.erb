@@ -1,14 +1,2 @@
-<h1>回答投稿</h1>
-<%= form_for @question, url: { action: 'create' } do |f| %>
-  <div class="form-group">
-    <%= f.label 名前 %>
-    <%= f.text_field :name, class: 'form-control' %>
-  </div>
-  <div class="form-group">
-    <%= f.label 回答 %>
-    <%= f.text_area :content, class: 'form-control' %>
-  </div>
-  <div class="form-group">
-    <%= f.submit '回答投稿する', class: 'btn btn-primary' %>
-  </div>
-<% end %>
+<h1>Answer#create</h1>
+<p>Find me in app/views/answer/index.html.erb</p>
